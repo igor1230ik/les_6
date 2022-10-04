@@ -1,0 +1,263 @@
+/* ============== Файл обнулення =================== */
+@import "null.css";
+
+/* ============ Шрифти ========================== */
+
+/* ============= Lato ================ */
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato/Lato-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato/Lato-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Black.woff2') format('woff2'),
+        url('../fonts/Lato/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* ============================================== */
+
+body {
+    font-family: "Lato", sans-serif;
+    color: #424551;
+    line-height: 1.6;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+[class*=-container] {
+    padding: 0 15px;
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+/* ======= header ======== */
+
+.header-info {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;
+    font-weight: 900;
+    color: #1E212C;
+    margin-top: 190px;
+    margin-bottom: 92px;
+}
+
+/* ======== main ========= */
+
+.hr-image {
+    max-width: 810px;
+    margin-bottom: 60px;
+}
+
+.hr-image img {
+    max-width: 100%;
+}
+
+.hr-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+
+.hr-title-info {
+    margin-bottom: 48px;
+}
+
+.hr-title-info p {
+    margin-bottom: 36px;
+}
+
+.hr-title-info .hr-title-info-2 {
+    margin-bottom: 0px;
+}
+
+.hr-subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #1E212C;
+    margin-bottom: 48px;
+}
+
+.hr-subtitle-info {
+    margin-bottom: 24px;
+}
+
+.hr-list-info {
+    margin-bottom: 20px;
+}
+
+.hr-list-info li {
+    margin-left: 32px;
+    margin-bottom: 4px;
+}
+
+.hr-bottom-info {
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-color: aquamarine;
+}
+
+.footer-logo {
+    padding: 20px 0;
+}
+
+.footer-logo-image {
+    max-width: 130px;
+    margin: 0 auto;
+
+}
+
+.footer-logo img {
+    max-width: 100%;
+
+}
+
+/* ======= test ======= */
+
+.test {
+    border-top: 3px solid #000;
+}
+
+.test-container {
+    margin-bottom: 40px;
+}
+
+
+.test-1 {
+    border: 2px dotted #1E212C;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.test-1 p {
+    border: 2px solid #1E212C;
+    padding: 15px;
+    margin: 5px 10px 15px 20px;
+    box-shadow: 5px 10px 5px #424551;
+}
+
+.test-2 {
+    outline: 4px double #cb2056;
+    box-shadow: 5px 5px 15px #1438c9, -5px -5px 15px #d8df0f, inset 5px 5px 15px #1438c9, inset -5px -5px 15px #d8df0f;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.test-2 div {
+    padding: 20px;
+}
+
+[class*=test-2-link] {
+    cursor: pointer;
+    border: 1px solid #000;
+    margin: 10px 0px;
+}
+
+[class*=test-2-link]:hover {
+    color: red;
+    background-color: #d8df0f;
+}
+
+.test-2-link-1 {
+    border-radius: 20px 0 20px 0;
+}
+
+.test-2-link-2 {
+    border-radius: 20px;
+}
+
+.test-2-link-3 {
+    opacity: 0.2;
+}
+
+.test-2-link-4 {
+    visibility: hidden;
+}
+
+.test-2-link-5 {
+    max-width: 500px;
+    max-height: 50px;
+    overflow-y: auto;
+    margin-left: auto;
+}
+
+.test-2-link-6 {
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: auto;
+    max-width: 500px;
+    margin: 0px auto 0px;
+}
+
+.test-3 {
+    box-shadow: 9px 9px 15px #cb2056, inset -9px -15px 15px #cb2056;
+}
+
+[class*=test-3-display] {
+    border: 2px solid #000;
+}
+
+.test-3-display-2 {
+    display: inline-block;
+    margin: 10px 0px;
+    padding: 15px;
+}
+
+
+.test-3-display-1 {
+    display: none;
+}
+
+
+
+/* ==================== footer ========================= */
+.footer {
+    background-color: aquamarine;
+    box-shadow: 0px -5px 7px aquamarine;
+}
+
+.footer-logo {
+    padding: 20px 0;
+}
+
+.footer-logo-image {
+    max-width: 130px;
+    margin: 0 auto;
+
+}
+
+.footer-logo img {
+    max-width: 100%;
+
+}
